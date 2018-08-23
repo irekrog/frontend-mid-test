@@ -1,0 +1,10 @@
+$blue: #8392ff;
+
+.button {
+    background: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid $blue;
+    color: $blue;
+    cursor: pointer;
+}

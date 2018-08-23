@@ -1,0 +1,32 @@
+.square {
+    text-align: center;
+
+    &.-white {
+        background: white;
+    }
+
+    &.-blue {
+        background: blue;
+    }
+
+    &.-with-mini {
+        flex-flow: wrap;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .row {
+        display: flex;
+        width: 100%;
+    }
+
+    .square {
+        flex: 0 0 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 450px;
+        box-sizing: border-box;
+    }
+}

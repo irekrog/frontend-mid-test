@@ -1,0 +1,12 @@
+li {
+    padding: 10px;
+    background: gray;
+
+    &:nth-child(odd) {
+        background: white;
+    }
+}
+
+.delete-button {
+    cursor: pointer;
+}
